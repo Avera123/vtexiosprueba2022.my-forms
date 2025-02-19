@@ -1,15 +1,21 @@
 {
   "name": "my-forms",
   "vendor": "vtexiosprueba2022",
-  "version": "0.3.0",
+  "version": "0.0.0",
   "title": "Formularios propios de FDS",
   "description": "Reference app for VTEX IO Services",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
-  "dependencies": {},
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.styleguide": "9.x"
+  },
   "builders": {
     "node": "7.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "assets": "0.x",
+    "react": "3.x",
+    "store": "0.x"
   },
   "scripts": {
     "prereleasy": "bash lint.sh"
