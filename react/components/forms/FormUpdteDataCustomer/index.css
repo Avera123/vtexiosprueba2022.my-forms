@@ -1,0 +1,14 @@
+.Form{
+  margin: 2em;
+}
+
+.Inputs{
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.InputEmail{
+  font-size: larger;
+  color: brown;
+}
